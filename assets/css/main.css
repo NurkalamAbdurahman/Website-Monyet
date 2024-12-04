@@ -1,0 +1,161 @@
+/* google font 'poppins' dan 'better yesterday' */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+@import url("/Pemrograman Dasar/Projek Website/Tailwind dan Css/Website Monyet/assets/font/Better Yesterday.otf");
+@import url("/Pemrograman Dasar/Projek Website/Tailwind dan Css/Website Monyet/assets/font/Better Yesterday italic.otf");
+
+/* code ... */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans HK", sans-serif;
+  background: #fff;
+}
+
+.slider {
+  position: relative;
+  
+}
+.slider .owl-item.active.center .kartu {
+  transform: scale(1);
+  opacity: 1;
+}
+.slider .owl-item.active.center .kartu button {
+  background-color: #fa2319;
+  border: none;
+}
+
+.kartu {
+  background: #fff;
+  padding: 0px 0px;
+  border-radius: 5px;
+  transform: scale(0.9);
+  opacity: 1;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.kartu img {
+  border-radius: 5px 5px 0px 0px;
+  position: relative;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+  margin-left: -5rem;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+  margin-right: -5rem;
+}
+
+
+
+.owl-dots {
+  text-align: center;
+  margin-top: 1rem;
+}
+.owl-dots .owl-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: #ccc !important;
+  margin-left: 3px;
+  margin-right: 3px;
+  outline: none;
+}
+.owl-dots .owl-dot.active {
+  background: #f44336 !important;
+}
+
+/* responsive */
+
+@media (max-width: 1279px) {
+  .monyet-landing {
+    margin-top: 3.5rem;
+  }
+}
+
+@media (max-width: 1025px) {
+  body {
+    padding: 1rem;
+  }
+  nav {
+    padding: 1rem;
+  }
+  .monyet-trio {
+    width: 50%;
+  }
+  .monyet-landing {
+    margin-top: 1rem !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .owl-nav .owl-prev {
+    display: none;
+  }
+  .owl-nav .owl-next {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .slider .kartu {
+    width: 325px;
+    height: 385px;
+  }
+
+  .slider .kartu img {
+    width: 325px;
+    height: 385px;
+  }
+}
+
+@media (max-width: 600px) {
+  .slider .kartu {
+    width: 225px;
+    height: 285px;
+  }
+  .slider .kartu img {
+    width: 225px;
+    height: 285px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider .kartu {
+    width: 325px;
+    height: 385px;
+  }
+  .slider .kartu img {
+    width: 325px;
+    height: 385px;
+  }
+}
+
+@media (max-width: 320px) {
+  .slider .kartu {
+    width: 225px;
+    height: 285px;
+  }
+  .slider .kartu img {
+    width: 225px;
+    height: 285px;
+  }
+}

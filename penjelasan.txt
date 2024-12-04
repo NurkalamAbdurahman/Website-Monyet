@@ -1,0 +1,4 @@
+
+* kelemahan
+    website ini tersedia di berbagai device tetapi ketika memakai framework aos menjadi kurang responsive dan butuh perbaikan 
+dari style mobile, tablet, dan resolusi 1024. dengan di bantu sedikit css murni 
