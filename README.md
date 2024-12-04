@@ -38,7 +38,3 @@ Proyek ini merupakan tugas akhir kelas 11 IT Club, yaitu melakukan slicing desai
 
 ## Kontributor  
 Proyek ini dikerjakan oleh anggota IT Club kelas 11 sebagai tugas akhir.  
-
---- 
-
-Jika Anda memiliki detail tambahan seperti nama framework atau spesifikasi desain, saya dapat menyesuaikan README ini lebih lanjut.
